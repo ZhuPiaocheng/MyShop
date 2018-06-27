@@ -1,0 +1,33 @@
+[ 2018-06-26T20:19:32+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/ajaxGetAttr/type_id/4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002274s ]
+SQL: SHOW COLUMNS FROM `p39_privilege` [ RunTime:0.0150s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `p39_attribute` WHERE `type_id` = '4'  [ RunTime:0.1820s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001520s ]
+
+[ 2018-06-26T21:30:13+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/ajaxGetAttr/type_id/4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002042s ]
+SQL: SHOW COLUMNS FROM `p39_privilege` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p39_attribute` WHERE `type_id` = '4'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001377s ]
+
+[ 2018-06-26T21:33:26+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/ajaxGetAttr/type_id/4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002269s ]
+SQL: SHOW COLUMNS FROM `p39_privilege` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `p39_attribute` WHERE `type_id` = '4'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001489s ]
+

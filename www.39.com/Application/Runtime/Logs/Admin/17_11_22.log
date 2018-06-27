@@ -1,0 +1,12 @@
+[ 2017-11-22T22:03:46+08:00 ] ::1 /www.39.com/index.php/Admin//top.html
+ERR: 无法加载控制器:Top
+
+[ 2017-11-22T22:03:46+08:00 ] ::1 /www.39.com/index.php/Admin//main.html
+ERR: 无法加载控制器:Main
+
+[ 2017-11-22T22:03:46+08:00 ] ::1 /www.39.com/index.php/Admin//menu.html
+ERR: 无法加载控制器:Menu
+
+[ 2017-11-22T22:27:11+08:00 ] ::1 /www.39.com/index.php/Admin/Category/edit/id/1.html
+ERR: 非法操作:edit
+

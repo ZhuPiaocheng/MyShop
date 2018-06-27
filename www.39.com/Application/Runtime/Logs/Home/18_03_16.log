@@ -1,0 +1,96 @@
+[ 2018-03-16T19:04:01+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003544s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0566s ]
+ERR: 非法操作:ajaxGetMemberPrice
+
+[ 2018-03-16T19:04:01+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004252s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0101s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0085s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29') AND `is_on_sale` = '是' ORDER BY FIELD(id,29)  [ RunTime:0.0527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001488s ]
+
+[ 2018-03-16T19:04:28+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005730s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0414s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0131s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29') AND `is_on_sale` = '是' ORDER BY FIELD(id,29)  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001322s ]
+
+[ 2018-03-16T19:04:28+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003692s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0176s ]
+ERR: 非法操作:ajaxGetMemberPrice
+
+[ 2018-03-16T19:07:21+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002981s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0182s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29') AND `is_on_sale` = '是' ORDER BY FIELD(id,29)  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001449s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001663s ]
+
+[ 2018-03-16T19:07:21+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003394s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0139s ]
+ERR: 非法操作:ajaxGetMemberPrice
+
+[ 2018-03-16T19:10:17+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005469s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0495s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0172s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29') AND `is_on_sale` = '是' ORDER BY FIELD(id,29)  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004124s ]
+
+[ 2018-03-16T19:10:17+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012696s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0196s ]
+ERR: 非法操作:ajaxGetMemberPrice
+
+[ 2018-03-16T19:10:23+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004600s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.1756s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0092s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29') AND `is_on_sale` = '是' ORDER BY FIELD(id,29)  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001114s ]
+
+[ 2018-03-16T19:10:23+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002630s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0104s ]
+ERR: 非法操作:ajaxGetMemberPrice
+
+[ 2018-03-16T19:40:51+08:00 ] ::1 /www.39.com/index.php/Home/Member/login
+ERR: 无法加载控制器:Member
+
+[ 2018-03-16T19:48:55+08:00 ] ::1 /www.39.com/index.php/Home/Member/logout
+ERR: 非法操作:logout
+

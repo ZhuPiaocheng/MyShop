@@ -1,0 +1,13 @@
+[ 2017-12-09T15:53:30+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/goods_number/id/33.html
+ERR: 非法操作:goods_number
+
+[ 2017-12-09T17:16:55+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/ajaxGetAttr/type_id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002499s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0244s ]
+SQL: SELECT * FROM `p39_attribute` WHERE `type_id` = '2'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001537s ]
+

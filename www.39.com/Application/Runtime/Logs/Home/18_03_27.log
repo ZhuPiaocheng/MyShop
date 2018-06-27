@@ -1,0 +1,358 @@
+[ 2018-03-27T17:20:03+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003039s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0872s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0352s ]
+ERR: 1064:Erreur de syntaxe près de '36,33,35,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('','36','33','35','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,,36,33,35,29,32) 
+ERR: 1064:Erreur de syntaxe près de '36,33,35,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('','36','33','35','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,,36,33,35,29,32) 
+
+[ 2018-03-27T17:20:03+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006461s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0107s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0115s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '' AND `promote_price` > 0 AND `promote_start_date` <= '2018-03-27 17:20' AND `promote_end_date` >= '2018-03-27 17:20' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001499s ]
+
+[ 2018-03-27T17:20:03+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003615s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001636s ]
+
+[ 2018-03-27T17:20:20+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001151s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2018-03-27T17:20:27+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003617s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0113s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0146s ]
+ERR: 1064:Erreur de syntaxe près de '33,35,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','','33','35','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,,33,35,29,32) 
+ERR: 1064:Erreur de syntaxe près de '33,35,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','','33','35','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,,33,35,29,32) 
+
+[ 2018-03-27T17:20:27+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002309s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0145s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0128s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '36' AND `promote_price` > 0 AND `promote_start_date` <= '2018-03-27 17:20' AND `promote_end_date` >= '2018-03-27 17:20' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001106s ]
+
+[ 2018-03-27T17:20:27+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001845s ]
+
+[ 2018-03-27T17:20:32+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001986s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2018-03-27T17:20:34+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001784s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002272s ]
+
+[ 2018-03-27T17:20:45+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001727s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-03-27T17:20:53+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001625s ]
+
+[ 2018-03-27T17:23:14+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001880s ]
+
+[ 2018-03-27T17:23:16+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002770s ]
+
+[ 2018-03-27T17:23:20+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004043s ]
+
+[ 2018-03-27T17:23:23+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003005s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003274s ]
+
+[ 2018-03-27T17:23:40+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018111s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001952s ]
+
+[ 2018-03-27T17:23:42+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002048s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002284s ]
+
+[ 2018-03-27T17:23:50+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001909s ]
+
+[ 2018-03-27T17:24:13+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003181s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0288s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0154s ]
+ERR: 1064:Erreur de syntaxe près de '33,35,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','','33','35','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,,33,35,29,32) 
+ERR: 1064:Erreur de syntaxe près de '33,35,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','','33','35','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,,33,35,29,32) 
+
+[ 2018-03-27T17:24:13+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004225s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0119s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '36' AND `promote_price` > 0 AND `promote_start_date` <= '2018-03-27 17:24' AND `promote_end_date` >= '2018-03-27 17:24' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.0097s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `goods_id` = '36' AND `level_id` = '1' LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001581s ]
+
+[ 2018-03-27T17:24:13+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003418s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001964s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002338s ]
+
+[ 2018-03-27T17:24:16+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003715s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2018-03-27T17:24:18+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2018-03-27T17:24:34+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001662s ]
+
+[ 2018-03-27T17:24:49+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001648s ]
+
+[ 2018-03-27T18:01:26+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003647s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003244s ]
+
+[ 2018-03-27T18:01:27+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001937s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001490s ]
+
+[ 2018-03-27T18:01:29+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001909s ]
+
+[ 2018-03-27T19:51:39+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001917s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002027s ]
+
+[ 2018-03-27T19:51:41+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001639s ]
+
+[ 2018-03-27T19:51:43+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002562s ]
+
+[ 2018-03-27T19:51:48+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001555s ]
+
+[ 2018-03-27T19:52:03+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005725s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001813s ]
+
+[ 2018-03-27T19:52:04+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001188s ]
+
+[ 2018-03-27T19:52:10+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2018-03-27T19:52:12+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005899s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001737s ]
+
+[ 2018-03-27T19:52:13+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007682s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0096s ]
+ERR: 1064:Erreur de syntaxe près de '33,35,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','','33','35','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,,33,35,29,32) 
+ERR: 1064:Erreur de syntaxe près de '33,35,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','','33','35','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,,33,35,29,32) 
+
+[ 2018-03-27T19:52:13+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004314s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0636s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0092s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '36' AND `promote_price` > 0 AND `promote_start_date` <= '2018-03-27 19:52' AND `promote_end_date` >= '2018-03-27 19:52' LIMIT 1   [ RunTime:0.0348s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.0078s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `goods_id` = '36' AND `level_id` = '1' LIMIT 1   [ RunTime:0.0753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2018-03-27T19:52:16+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002087s ]
+
+[ 2018-03-27T19:52:18+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001703s ]
+
+[ 2018-03-27T19:52:29+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001787s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001982s ]
+

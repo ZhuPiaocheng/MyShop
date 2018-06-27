@@ -1,0 +1,306 @@
+[ 2018-03-14T21:28:43+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002472s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0125s ]
+ERR: 非法操作:ajaxGetMemberPrice
+
+[ 2018-03-14T21:28:44+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009170s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0320s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0120s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+
+[ 2018-03-14T21:46:48+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002990s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.1121s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0149s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+
+[ 2018-03-14T21:46:48+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002398s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0177s ]
+ERR: 非法操作:ajaxGetMemberPrice
+
+[ 2018-03-14T21:50:30+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008319s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0184s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+
+[ 2018-03-14T21:50:30+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005707s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0116s ]
+ERR: 非法操作:ajaxGetMemberPrice
+
+[ 2018-03-14T21:50:36+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002576s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0144s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0156s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+
+[ 2018-03-14T21:50:36+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010497s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0118s ]
+ERR: 非法操作:ajaxGetMemberPrice
+
+[ 2018-03-14T21:50:41+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003012s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.3801s ]
+ERR: 非法操作:ajaxGetMemberPrice
+
+[ 2018-03-14T21:50:41+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003394s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.2418s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.1948s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+
+[ 2018-03-14T21:50:48+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002698s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0256s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0526s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+
+[ 2018-03-14T21:50:48+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002802s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0489s ]
+ERR: 非法操作:ajaxGetMemberPrice
+
+[ 2018-03-14T21:51:57+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002569s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0123s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+
+[ 2018-03-14T21:51:57+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007584s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0109s ]
+ERR: 非法操作:ajaxGetMemberPrice
+
+[ 2018-03-14T21:52:26+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002552s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0200s ]
+ERR: 非法操作:ajaxGetMemberPrice
+
+[ 2018-03-14T21:52:26+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008825s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0116s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+
+[ 2018-03-14T21:53:44+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005565s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0230s ]
+ERR: 非法操作:ajaxGetMemberPrice
+
+[ 2018-03-14T21:53:44+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015574s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0581s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0158s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+
+[ 2018-03-14T21:53:48+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002733s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0119s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0159s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+
+[ 2018-03-14T21:53:48+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004460s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0210s ]
+ERR: 非法操作:ajaxGetMemberPrice
+
+[ 2018-03-14T21:55:31+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002874s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0150s ]
+ERR: 非法操作:ajaxGetMemberPrice
+
+[ 2018-03-14T21:55:31+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017023s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0126s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0159s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+
+[ 2018-03-14T21:56:16+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002519s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0138s ]
+ERR: 非法操作:ajaxGetMemberPrice
+
+[ 2018-03-14T21:56:16+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017570s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0173s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0138s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+
+[ 2018-03-14T21:56:37+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003080s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0295s ]
+ERR: 非法操作:ajaxGetMemberPrice
+
+[ 2018-03-14T21:56:37+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002498s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0121s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0123s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+
+[ 2018-03-14T21:57:13+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002550s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0132s ]
+ERR: 非法操作:ajaxGetMemberPrice
+
+[ 2018-03-14T21:57:13+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008096s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0108s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0161s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+
+[ 2018-03-14T21:58:15+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002896s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0146s ]
+ERR: 非法操作:ajaxGetMemberPrice
+
+[ 2018-03-14T21:58:15+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003315s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0114s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0160s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+
+[ 2018-03-14T21:59:04+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003938s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0182s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0154s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+
+[ 2018-03-14T21:59:04+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002726s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0106s ]
+ERR: 非法操作:ajaxGetMemberPrice
+
+[ 2018-03-14T22:00:18+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004183s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0169s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0186s ]
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29','33','') AND `is_on_sale` = '是' ORDER BY FIELD(id,29,33,) 
+
+[ 2018-03-14T22:00:18+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006536s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0147s ]
+ERR: 非法操作:ajaxGetMemberPrice
+

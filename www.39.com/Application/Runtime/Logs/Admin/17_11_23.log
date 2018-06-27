@@ -1,0 +1,27 @@
+[ 2017-11-23T22:05:58+08:00 ] ::1 /www.39.com/index.php/Admin/Index/categoryList.html
+ERR: 非法操作:categoryList
+
+[ 2017-11-23T22:05:58+08:00 ] ::1 /www.39.com/index.php/Admin/Index/categoryList.html
+ERR: 非法操作:categoryList
+
+[ 2017-11-23T22:06:03+08:00 ] ::1 /www.39.com/index.php/Admin/Index/categoryList.html
+ERR: 非法操作:categoryList
+
+[ 2017-11-23T22:06:06+08:00 ] ::1 /www.39.com/index.php/Admin/Index/goodsTrash.html
+ERR: 非法操作:goodsTrash
+
+[ 2017-11-23T22:06:07+08:00 ] ::1 /www.39.com/index.php/Admin/Index/orderList.html
+ERR: 非法操作:orderList
+
+[ 2017-11-23T22:06:07+08:00 ] ::1 /www.39.com/index.php/Admin/Index/orderQuery.html
+ERR: 非法操作:orderQuery
+
+[ 2017-11-23T22:06:08+08:00 ] ::1 /www.39.com/index.php/Admin/Index/orderAdd.html
+ERR: 非法操作:orderAdd
+
+[ 2017-11-23T22:06:08+08:00 ] ::1 /www.39.com/index.php/Admin/Index/delivery_list.html
+ERR: 非法操作:delivery_list
+
+[ 2017-11-23T22:06:09+08:00 ] ::1 /www.39.com/index.php/Admin/Index/back_list.html
+ERR: 非法操作:back_list
+

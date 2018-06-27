@@ -1,0 +1,36 @@
+[ 2017-12-07T19:22:09+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/ajaxDelAttr/goods_id/32/gaid/55
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008226s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0194s ]
+SQL: DELETE FROM `p39_goods_attr` WHERE `id` = 55 [ RunTime:0.0806s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.1084s ]
+ERR: 1064:Erreur de syntaxe près de 'AND FIND_IN_SET(55, attr_list)' à la ligne 1
+ [ SQL语句 ] : DELETE FROM `p39_goods_number` WHERE `goods_id` =32 or AND FIND_IN_SET(55, attr_list)
+ERR: 1064:Erreur de syntaxe près de 'AND FIND_IN_SET(55, attr_list)' à la ligne 1
+ [ SQL语句 ] : DELETE FROM `p39_goods_number` WHERE `goods_id` =32 or AND FIND_IN_SET(55, attr_list)
+
+[ 2017-12-07T19:22:11+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/ajaxDelAttr/goods_id/32/gaid/55
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002557s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0091s ]
+SQL: DELETE FROM `p39_goods_attr` WHERE `id` = 55 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0188s ]
+ERR: 1064:Erreur de syntaxe près de 'AND FIND_IN_SET(55, attr_list)' à la ligne 1
+ [ SQL语句 ] : DELETE FROM `p39_goods_number` WHERE `goods_id` =32 or AND FIND_IN_SET(55, attr_list)
+ERR: 1064:Erreur de syntaxe près de 'AND FIND_IN_SET(55, attr_list)' à la ligne 1
+ [ SQL语句 ] : DELETE FROM `p39_goods_number` WHERE `goods_id` =32 or AND FIND_IN_SET(55, attr_list)
+
+[ 2017-12-07T19:22:16+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/ajaxDelAttr/goods_id/32/gaid/55
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001860s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0080s ]
+SQL: DELETE FROM `p39_goods_attr` WHERE `id` = 55 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `p39_goods_number` [ RunTime:0.0075s ]
+ERR: 1064:Erreur de syntaxe près de 'AND FIND_IN_SET(55, attr_list)' à la ligne 1
+ [ SQL语句 ] : DELETE FROM `p39_goods_number` WHERE `goods_id` =32 or AND FIND_IN_SET(55, attr_list)
+ERR: 1064:Erreur de syntaxe près de 'AND FIND_IN_SET(55, attr_list)' à la ligne 1
+ [ SQL语句 ] : DELETE FROM `p39_goods_number` WHERE `goods_id` =32 or AND FIND_IN_SET(55, attr_list)
+

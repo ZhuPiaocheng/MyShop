@@ -1,0 +1,15 @@
+[ 2018-02-10T13:57:05+08:00 ] ::1 /www.39.com/index.php/Home/Index/login.html
+ERR: 非法操作:login
+
+[ 2018-02-10T13:57:05+08:00 ] ::1 /www.39.com/index.php/Home/Index/register.html
+ERR: 非法操作:register
+
+[ 2018-02-10T13:59:10+08:00 ] ::1 /www.39.com/index.php/Home/Index/index
+ERR: XML标签语法错误
+
+[ 2018-02-10T14:01:09+08:00 ] ::1 /www.39.com/index.php/Home/Index/index
+ERR: XML标签语法错误
+
+[ 2018-02-10T15:25:00+08:00 ] ::1 /www.39.com/index.php/Home/Index/imdex
+ERR: 非法操作:imdex
+

@@ -1,0 +1,54 @@
+[ 2017-11-15T17:22:26+08:00 ] ::1 /www.39.com/index.php/Admin/Index/goodsList.html
+ERR: 非法操作:goodsList
+
+[ 2017-11-15T17:22:28+08:00 ] ::1 /www.39.com/index.php/Admin/Index/goodsAdd.html
+ERR: 非法操作:goodsAdd
+
+[ 2017-11-15T17:22:29+08:00 ] ::1 /www.39.com/index.php/Admin/Index/categoryList.html
+ERR: 非法操作:categoryList
+
+[ 2017-11-15T17:22:29+08:00 ] ::1 /www.39.com/index.php/Admin/Index/brandList.html
+ERR: 非法操作:brandList
+
+[ 2017-11-15T17:22:30+08:00 ] ::1 /www.39.com/index.php/Admin/Index/goodsTrash.html
+ERR: 非法操作:goodsTrash
+
+[ 2017-11-15T17:22:35+08:00 ] ::1 /www.39.com/index.php/Admin/Index/goodsList.html
+ERR: 非法操作:goodsList
+
+[ 2017-11-15T17:22:36+08:00 ] ::1 /www.39.com/index.php/Admin/Index/goodsAdd.html
+ERR: 非法操作:goodsAdd
+
+[ 2017-11-15T17:22:37+08:00 ] ::1 /www.39.com/index.php/Admin/Index/goodsList.html
+ERR: 非法操作:goodsList
+
+[ 2017-11-15T18:28:45+08:00 ] ::1 /www.39.com/index.php/Admin/top.html
+ERR: 无法加载控制器:Top
+
+[ 2017-11-15T18:28:45+08:00 ] ::1 /www.39.com/index.php/Admin/main.html
+ERR: 无法加载控制器:Main
+
+[ 2017-11-15T18:28:45+08:00 ] ::1 /www.39.com/index.php/Admin/menu.html
+ERR: 无法加载控制器:Menu
+
+[ 2017-11-15T18:28:55+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/Goods/goodsList
+ERR: 非法操作:__GROUP__
+
+[ 2017-11-15T18:28:57+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/Index/main
+ERR: 非法操作:__GROUP__
+
+[ 2017-11-15T18:28:58+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/Order/orderList
+ERR: 非法操作:__GROUP__
+
+[ 2017-11-15T18:28:58+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/Comment/commentList
+ERR: 非法操作:__GROUP__
+
+[ 2017-11-15T18:28:59+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/User/userList
+ERR: 非法操作:__GROUP__
+
+[ 2017-11-15T18:28:59+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/Goods/goodsList
+ERR: 非法操作:__GROUP__
+
+[ 2017-11-15T18:31:39+08:00 ] ::1 /www.39.com/index.php/Admin/Brand/
+ERR: 非法操作:index
+

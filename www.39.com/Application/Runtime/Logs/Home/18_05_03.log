@@ -1,0 +1,8 @@
+[ 2018-05-03T20:49:41+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009572s ]
+

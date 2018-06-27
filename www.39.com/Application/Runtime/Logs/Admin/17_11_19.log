@@ -1,0 +1,90 @@
+[ 2017-11-19T15:30:50+08:00 ] ::1 /www.39.com/index.php/Admin/Index/goodsAdd.html
+ERR: 非法操作:goodsAdd
+
+[ 2017-11-19T15:31:01+08:00 ] ::1 /www.39.com/index.php/Admin/Good/add.html
+ERR: 无法加载控制器:Good
+
+[ 2017-11-19T15:31:08+08:00 ] ::1 /www.39.com/index.php/Admin/Good/add.html
+ERR: 无法加载控制器:Good
+
+[ 2017-11-19T15:31:11+08:00 ] ::1 /www.39.com/index.php/Admin/Good/add.html
+ERR: 无法加载控制器:Good
+
+[ 2017-11-19T15:31:27+08:00 ] ::1 /www.39.com/index.php/Admin/Index/brandList.html
+ERR: 非法操作:brandList
+
+[ 2017-11-19T15:35:23+08:00 ] ::1 /www.39.com/index.php/Admin/Index/categoryList.html
+ERR: 非法操作:categoryList
+
+[ 2017-11-19T15:40:01+08:00 ] ::1 /www.39.com/index.php/Admin/Member/lst.html
+ERR: 无法加载控制器:Member
+
+[ 2017-11-19T18:30:45+08:00 ] ::1 /www.39.com/index.php/Admin/Member_price/lst.html
+ERR: 无法加载控制器:Member_price
+
+[ 2017-11-19T18:31:31+08:00 ] ::1 /www.39.com/index.php/Admin/Index/categoryList.html
+ERR: 非法操作:categoryList
+
+[ 2017-11-19T18:31:33+08:00 ] ::1 /www.39.com/index.php/Admin/Index/goodsTrash.html
+ERR: 非法操作:goodsTrash
+
+[ 2017-11-19T18:31:35+08:00 ] ::1 /www.39.com/index.php/Admin/Index/orderList.html
+ERR: 非法操作:orderList
+
+[ 2017-11-19T18:31:37+08:00 ] ::1 /www.39.com/index.php/Admin/Index/orderQuery.html
+ERR: 非法操作:orderQuery
+
+[ 2017-11-19T18:31:38+08:00 ] ::1 /www.39.com/index.php/Admin/Index/orderAdd.html
+ERR: 非法操作:orderAdd
+
+[ 2017-11-19T18:31:39+08:00 ] ::1 /www.39.com/index.php/Admin/Index/delivery_list.html
+ERR: 非法操作:delivery_list
+
+[ 2017-11-19T18:31:39+08:00 ] ::1 /www.39.com/index.php/Admin/Index/back_list.html
+ERR: 非法操作:back_list
+
+[ 2017-11-19T18:31:43+08:00 ] ::1 /www.39.com/index.php/Admin/Index/userMessage.html
+ERR: 非法操作:userMessage
+
+[ 2017-11-19T21:12:54+08:00 ] ::1 /www.39.com/index.php/Admin/Index/categoryList.html
+ERR: 非法操作:categoryList
+
+[ 2017-11-19T21:12:55+08:00 ] ::1 /www.39.com/index.php/Admin/Index/goodsTrash.html
+ERR: 非法操作:goodsTrash
+
+[ 2017-11-19T21:12:58+08:00 ] ::1 /www.39.com/index.php/Admin/Index/orderAdd.html
+ERR: 非法操作:orderAdd
+
+[ 2017-11-19T21:12:59+08:00 ] ::1 /www.39.com/index.php/Admin/Index/orderQuery.html
+ERR: 非法操作:orderQuery
+
+[ 2017-11-19T21:12:59+08:00 ] ::1 /www.39.com/index.php/Admin/Index/orderList.html
+ERR: 非法操作:orderList
+
+[ 2017-11-19T21:12:59+08:00 ] ::1 /www.39.com/index.php/Admin/Index/delivery_list.html
+ERR: 非法操作:delivery_list
+
+[ 2017-11-19T21:13:00+08:00 ] ::1 /www.39.com/index.php/Admin/Index/back_list.html
+ERR: 非法操作:back_list
+
+[ 2017-11-19T21:13:05+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/Goods/goodsList
+ERR: 非法操作:__GROUP__
+
+[ 2017-11-19T21:13:06+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/Order/orderList
+ERR: 非法操作:__GROUP__
+
+[ 2017-11-19T21:13:07+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/Comment/commentList
+ERR: 非法操作:__GROUP__
+
+[ 2017-11-19T21:13:07+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/User/userList
+ERR: 非法操作:__GROUP__
+
+[ 2017-11-19T21:13:07+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/Comment/commentList
+ERR: 非法操作:__GROUP__
+
+[ 2017-11-19T21:13:08+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/Order/orderList
+ERR: 非法操作:__GROUP__
+
+[ 2017-11-19T21:13:09+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/Index/main
+ERR: 非法操作:__GROUP__
+

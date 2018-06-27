@@ -1,0 +1,103 @@
+[ 2018-02-26T19:14:54+08:00 ] ::1 /www.39.com/index.php/
+ERR: Think\Model:getChildren方法不存在！
+
+[ 2018-02-26T19:15:19+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+
+[ 2018-02-26T19:18:44+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+
+[ 2018-02-26T19:20:01+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+
+[ 2018-02-26T19:21:18+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+
+[ 2018-02-26T19:22:11+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+
+[ 2018-02-26T19:22:13+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+
+[ 2018-02-26T19:22:14+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+
+[ 2018-02-26T19:22:15+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+
+[ 2018-02-26T19:22:15+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+
+[ 2018-02-26T19:22:15+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+
+[ 2018-02-26T19:22:16+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+
+[ 2018-02-26T19:23:07+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+
+[ 2018-02-26T19:23:09+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+
+[ 2018-02-26T19:23:09+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+
+[ 2018-02-26T19:23:26+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+
+[ 2018-02-26T19:23:28+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+
+[ 2018-02-26T19:23:41+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') AND a.brand_id <> 0 LIMIT 9' à la ligne 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN () AND a.brand_id <> 0 LIMIT 9  
+
+[ 2018-02-26T19:28:47+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () 
+
+[ 2018-02-26T19:31:34+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ')' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () 
+
+[ 2018-02-26T19:32:21+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+
+[ 2018-02-26T19:34:47+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+
+[ 2018-02-26T19:34:51+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+
+[ 2018-02-26T21:43:41+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+
+[ 2018-02-26T21:45:11+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+
+[ 2018-02-26T21:45:43+08:00 ] ::1 /www.39.com/index.php/
+ERR: 1064:Erreur de syntaxe près de ') ORDER BY sort_num ASC LIMIT 8' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN () ORDER BY sort_num ASC LIMIT 8  
+

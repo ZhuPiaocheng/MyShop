@@ -1,0 +1,31 @@
+[ 2017-11-26T19:48:08+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.cat_id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.cat_id IN ('16','22','23','24','17','18','19','20','1') LIMIT 1  
+
+[ 2017-11-26T21:15:10+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=22&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.id IN ('26','27','29') LIMIT 1  
+
+[ 2017-11-26T21:15:15+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.id IN ('26','27','28','29') LIMIT 1  
+
+[ 2017-11-26T21:20:22+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/delete/id/30.html
+ERR: Think\Model:fields方法不存在！
+
+[ 2017-11-26T21:21:04+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/delete/id/30.html
+ERR: Think\Model:fields方法不存在！
+
+[ 2017-11-26T21:22:21+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/delete/id/28.html
+ERR: Think\Model:fields方法不存在！
+
+[ 2017-11-26T21:22:51+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/delete/id/30.html
+ERR: Think\Model:fields方法不存在！
+
+[ 2017-11-26T21:23:20+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/delete/id/30.html
+ERR: Think\Model:fields方法不存在！
+
+[ 2017-11-26T21:26:42+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/delete/id/31.html
+ERR: 1054:Champ 'sm_pic.mid_pic' inconnu dans field list
+ [ SQL语句 ] : SELECT `pic`,sm_pic.mid_pic,`big_pic` FROM `p39_goods_pic` WHERE `goods_id` = 31 
+

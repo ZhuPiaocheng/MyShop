@@ -1,0 +1,4 @@
+[ 2018-02-12T15:39:46+08:00 ] ::1 /www.39.com/index.php/Home/Index/index
+ERR: 1064:Erreur de syntaxe près de 'ACS LIMIT 5' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2018-02-12 15:39' AND `promote_end_date` >= '2018-02-12 15:39' ORDER BY sort_num ACS LIMIT 5  
+

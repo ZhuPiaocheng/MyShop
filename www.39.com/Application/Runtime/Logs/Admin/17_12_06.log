@@ -1,0 +1,141 @@
+[ 2017-12-06T15:34:40+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/ajaxGetAttr/type_id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001583s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0375s ]
+SQL: SELECT * FROM `p39_attribute` WHERE `type_id` = '2'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001165s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001310s ]
+
+[ 2017-12-06T15:36:11+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/ajaxGetAttr/type_id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002545s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `p39_attribute` WHERE `type_id` = '2'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000912s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2017-12-06T16:01:40+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/ajaxGetAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.035110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.047008s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.1393s ]
+SQL: SELECT * FROM `p39_attribute` WHERE `type_id` = '1'  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.028658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028770s ]
+
+[ 2017-12-06T16:11:54+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/ajaxGetAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001804s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0476s ]
+SQL: SELECT * FROM `p39_attribute` WHERE `type_id` = '1'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2017-12-06T16:12:09+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/add.html
+ERR: 1146:La table 'php39.p39_good_attr' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `p39_good_attr`
+
+[ 2017-12-06T16:13:52+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/ajaxGetAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001847s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `p39_attribute` WHERE `type_id` = '1'  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2017-12-06T16:14:05+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/add.html
+ERR: 1146:La table 'php39.p39_good_attr' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `p39_good_attr`
+
+[ 2017-12-06T16:14:30+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/ajaxGetAttr/type_id/2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001827s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0121s ]
+SQL: SELECT * FROM `p39_attribute` WHERE `type_id` = '2'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2017-12-06T16:14:31+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/ajaxGetAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002323s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `p39_attribute` WHERE `type_id` = '1'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001159s ]
+
+[ 2017-12-06T16:17:08+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/ajaxGetAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002958s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `p39_attribute` WHERE `type_id` = '1'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002223s ]
+
+[ 2017-12-06T18:59:32+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/edit/id/33.html
+ERR: 1146:La table 'php39.p39_attrbute' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `p39_attrbute`
+
+[ 2017-12-06T20:44:28+08:00 ] ::1 /www.39.com/index.php/Admin/Index/userMessage.html
+ERR: 非法操作:userMessage
+
+[ 2017-12-06T20:44:32+08:00 ] ::1 /www.39.com/index.php/Admin/Index/back_list.html
+ERR: 非法操作:back_list
+
+[ 2017-12-06T20:44:33+08:00 ] ::1 /www.39.com/index.php/Admin/Index/delivery_list.html
+ERR: 非法操作:delivery_list
+
+[ 2017-12-06T20:44:33+08:00 ] ::1 /www.39.com/index.php/Admin/Index/orderAdd.html
+ERR: 非法操作:orderAdd
+
+[ 2017-12-06T20:44:34+08:00 ] ::1 /www.39.com/index.php/Admin/Index/orderQuery.html
+ERR: 非法操作:orderQuery
+
+[ 2017-12-06T20:44:34+08:00 ] ::1 /www.39.com/index.php/Admin/Index/orderList.html
+ERR: 非法操作:orderList
+
+[ 2017-12-06T20:44:48+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.id IN ('26','27','28','29','30','31','32','33') LIMIT 1  
+
+[ 2017-12-06T20:45:50+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/Index/main
+ERR: 非法操作:__GROUP__
+
+[ 2017-12-06T20:45:51+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/Goods/goodsList
+ERR: 非法操作:__GROUP__
+
+[ 2017-12-06T20:45:51+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/Order/orderList
+ERR: 非法操作:__GROUP__
+
+[ 2017-12-06T20:45:52+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/Comment/commentList
+ERR: 非法操作:__GROUP__
+
+[ 2017-12-06T20:45:53+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/User/userList
+ERR: 非法操作:__GROUP__
+
+[ 2017-12-06T20:45:54+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/Comment/commentList
+ERR: 非法操作:__GROUP__
+
+[ 2017-12-06T20:45:54+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/Order/orderList
+ERR: 非法操作:__GROUP__
+
+[ 2017-12-06T20:45:54+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/Goods/goodsList
+ERR: 非法操作:__GROUP__
+
+[ 2017-12-06T20:45:55+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/Index/main
+ERR: 非法操作:__GROUP__
+

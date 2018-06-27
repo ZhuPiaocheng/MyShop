@@ -1,0 +1,36 @@
+[ 2018-02-26T19:33:35+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.id IN ('26','27','28','29','30','31','32','33') LIMIT 1  
+
+[ 2018-02-26T19:33:46+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=16&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.id IN ('26','27','28','29','30','33') LIMIT 1  
+
+[ 2018-02-26T19:33:58+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=17&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.id IN ('29') LIMIT 1  
+
+[ 2018-02-26T19:34:12+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=16&brand_id=1&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND `brand_id` = '1' AND a.id IN ('26','27','28','29','30','33') LIMIT 1  
+
+[ 2018-02-26T19:34:32+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.id IN ('26','27','28','29','30','31','32','33') LIMIT 1  
+
+[ 2018-02-26T21:39:47+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.id IN ('26','27','28','29','30','31','32','33') LIMIT 1  
+
+[ 2018-02-26T21:40:07+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.id IN ('26','27','28','29','30','31','32','33') LIMIT 1  
+
+[ 2018-02-26T21:41:59+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.id IN ('26','27','28','29','30','31','32','33') LIMIT 1  
+
+[ 2018-02-26T21:42:34+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=16&brand_id=1&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND `brand_id` = '1' AND a.id IN ('26','27','28','29','30','33') LIMIT 1  
+

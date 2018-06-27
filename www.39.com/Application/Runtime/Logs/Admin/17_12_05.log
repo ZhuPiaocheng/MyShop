@@ -1,0 +1,74 @@
+[ 2017-12-05T20:34:59+08:00 ] ::1 /www.39.com/index.php/Admin/Index/categoryList.html
+ERR: 非法操作:categoryList
+
+[ 2017-12-05T20:35:08+08:00 ] ::1 /www.39.com/index.php/Admin/Index/goodsTrash.html
+ERR: 非法操作:goodsTrash
+
+[ 2017-12-05T20:35:12+08:00 ] ::1 /www.39.com/index.php/Admin/Index/goodsTrash.html
+ERR: 非法操作:goodsTrash
+
+[ 2017-12-05T20:35:41+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=1&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND `brand_id` = '1' AND a.id IN ('26','27','28','29') LIMIT 1  
+
+[ 2017-12-05T20:35:46+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=1&gn=&fp=&tp=&fa=&ta=&odby=id_asc
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND `brand_id` = '1' AND a.id IN ('26','27','28','29') LIMIT 1  
+
+[ 2017-12-05T20:35:51+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=2&gn=&fp=&tp=&fa=&ta=&odby=id_asc
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND `brand_id` = '2' AND a.id IN ('26','27','28','29') LIMIT 1  
+
+[ 2017-12-05T20:36:48+08:00 ] ::1 /www.39.com/index.php/Admin/Index/categoryList.html
+ERR: 非法操作:categoryList
+
+[ 2017-12-05T20:53:11+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/ajaxGetAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002586s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `p39_attribute` WHERE `type_id` = '1'  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002341s ]
+
+[ 2017-12-05T20:53:15+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/ajaxGetAttr/type_id/3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002356s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `p39_attribute` WHERE `type_id` = '3'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001990s ]
+
+[ 2017-12-05T20:57:15+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/ajaxGetAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004302s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0139s ]
+SQL: SELECT * FROM `p39_attribute` WHERE `type_id` = '1'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001766s ]
+
+[ 2017-12-05T20:58:54+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/ajaxGetAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002856s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `p39_attribute` WHERE `type_id` = '1'  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002678s ]
+
+[ 2017-12-05T20:59:43+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/ajaxGetAttr/type_id/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002082s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0595s ]
+SQL: SELECT * FROM `p39_attribute` WHERE `type_id` = '1'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002650s ]
+

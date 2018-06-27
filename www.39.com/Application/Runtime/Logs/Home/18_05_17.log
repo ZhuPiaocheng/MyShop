@@ -1,0 +1,631 @@
+[ 2018-05-17T09:06:06+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001713s ]
+
+[ 2018-05-17T09:06:07+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003514s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003595s ]
+
+[ 2018-05-17T09:06:22+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004633s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002118s ]
+
+[ 2018-05-17T09:07:08+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003061s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011350s ]
+
+[ 2018-05-17T09:09:08+08:00 ] ::1 /www.39.com/index.php/Home/Cart/ajaxCartList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002204s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\www.39.com\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.0822s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2018-05-17T09:10:59+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001923s ]
+
+[ 2018-05-17T09:11:04+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001733s ]
+
+[ 2018-05-17T09:11:07+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002949s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001741s ]
+
+[ 2018-05-17T09:11:11+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search/cat_id/4
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.brand_id <> 0' at line 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN () AND a.brand_id <> 0 
+
+[ 2018-05-17T09:11:13+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001754s ]
+
+[ 2018-05-17T09:11:15+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001338s ]
+
+[ 2018-05-17T09:11:18+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001578s ]
+
+[ 2018-05-17T09:11:30+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002644s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002447s ]
+
+[ 2018-05-17T09:11:33+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004244s ]
+
+[ 2018-05-17T09:11:36+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search/cat_id/3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.brand_id <> 0' at line 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN () AND a.brand_id <> 0 
+
+[ 2018-05-17T09:11:38+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002108s ]
+
+[ 2018-05-17T09:11:39+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search/cat_id/4
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.brand_id <> 0' at line 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN () AND a.brand_id <> 0 
+
+[ 2018-05-17T09:11:40+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002438s ]
+
+[ 2018-05-17T09:11:42+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search/cat_id/5
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.brand_id <> 0' at line 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN () AND a.brand_id <> 0 
+
+[ 2018-05-17T09:11:43+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001844s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002038s ]
+
+[ 2018-05-17T09:11:47+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search/cat_id/3
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.brand_id <> 0' at line 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN () AND a.brand_id <> 0 
+
+[ 2018-05-17T09:11:48+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001646s ]
+
+[ 2018-05-17T09:11:51+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004274s ]
+
+[ 2018-05-17T09:12:02+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002669s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003448s ]
+
+[ 2018-05-17T09:12:12+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005162s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0046s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0057s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '29' AND `promote_price` > 0 AND `promote_start_date` <= '2018-05-17 09:12' AND `promote_end_date` >= '2018-05-17 09:12' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.0038s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `goods_id` = '29' AND `level_id` = '1' LIMIT 1   [ RunTime:0.1968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002308s ]
+
+[ 2018-05-17T09:12:12+08:00 ] ::1 /www.39.com/index.php/Home/Comment/ajaxGetPl/goods_id/29/p/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005286s ]
+ERR: 非法操作:ajaxGetPl
+
+[ 2018-05-17T09:12:13+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002998s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0012s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29') AND `is_on_sale` = '是' ORDER BY FIELD(id,29)  [ RunTime:0.0454s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002409s ]
+
+[ 2018-05-17T09:12:13+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002407s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002637s ]
+
+[ 2018-05-17T09:14:28+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001707s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0016s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29') AND `is_on_sale` = '是' ORDER BY FIELD(id,29)  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002146s ]
+
+[ 2018-05-17T09:14:28+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003294s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0015s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '29' AND `promote_price` > 0 AND `promote_start_date` <= '2018-05-17 09:14' AND `promote_end_date` >= '2018-05-17 09:14' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.0051s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `goods_id` = '29' AND `level_id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001666s ]
+
+[ 2018-05-17T09:14:28+08:00 ] ::1 /www.39.com/index.php/Home/Comment/ajaxGetPl/goods_id/29/p/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003166s ]
+ERR: 非法操作:ajaxGetPl
+
+[ 2018-05-17T09:14:28+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002792s ]
+
+[ 2018-05-17T09:14:29+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004666s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002150s ]
+
+[ 2018-05-17T09:14:31+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004902s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0014s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '29' AND `promote_price` > 0 AND `promote_start_date` <= '2018-05-17 09:14' AND `promote_end_date` >= '2018-05-17 09:14' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.0052s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `goods_id` = '29' AND `level_id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001782s ]
+
+[ 2018-05-17T09:14:31+08:00 ] ::1 /www.39.com/index.php/Home/Comment/ajaxGetPl/goods_id/29/p/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004324s ]
+ERR: 非法操作:ajaxGetPl
+
+[ 2018-05-17T09:14:31+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015332s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0016s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29') AND `is_on_sale` = '是' ORDER BY FIELD(id,29)  [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002050s ]
+
+[ 2018-05-17T09:14:31+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002590s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002588s ]
+
+[ 2018-05-17T09:14:34+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002372s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0015s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('29') AND `is_on_sale` = '是' ORDER BY FIELD(id,29)  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001594s ]
+
+[ 2018-05-17T09:14:34+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/29.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002573s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0012s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '29' AND `promote_price` > 0 AND `promote_start_date` <= '2018-05-17 09:14' AND `promote_end_date` >= '2018-05-17 09:14' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.0127s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `goods_id` = '29' AND `level_id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001624s ]
+
+[ 2018-05-17T09:14:34+08:00 ] ::1 /www.39.com/index.php/Home/Comment/ajaxGetPl/goods_id/29/p/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003701s ]
+ERR: 非法操作:ajaxGetPl
+
+[ 2018-05-17T09:14:34+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002935s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004337s ]
+
+[ 2018-05-17T09:14:37+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001289s ]
+
+[ 2018-05-17T09:14:39+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002488s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0014s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '36' AND `promote_price` > 0 AND `promote_start_date` <= '2018-05-17 09:14' AND `promote_end_date` >= '2018-05-17 09:14' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.0050s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `goods_id` = '36' AND `level_id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001622s ]
+
+[ 2018-05-17T09:14:39+08:00 ] ::1 /www.39.com/index.php/Home/Comment/ajaxGetPl/goods_id/36/p/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003484s ]
+ERR: 非法操作:ajaxGetPl
+
+[ 2018-05-17T09:14:39+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006411s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','29') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,29)  [ RunTime:0.0212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001143s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2018-05-17T09:14:39+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001780s ]
+
+[ 2018-05-17T09:14:41+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2018-05-17T09:15:18+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2018-05-17T09:19:45+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004588s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002451s ]
+
+[ 2018-05-17T09:19:50+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002236s ]
+
+[ 2018-05-17T09:19:52+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001709s ]
+
+[ 2018-05-17T09:19:53+08:00 ] ::1 /www.39.com/index.php/Home/Cart/ajaxCartList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002647s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\www.39.com\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0013s ]
+SQL: SELECT `goods_name`,`mid_logo` FROM `p39_goods` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '36' AND `promote_price` > 0 AND `promote_start_date` <= '2018-05-17 09:19' AND `promote_end_date` >= '2018-05-17 09:19' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.0058s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `goods_id` = '36' AND `level_id` = '1' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT a.attr_value,b.attr_name FROM p39_goods_attr a INNER JOIN p39_attribute b ON a.attr_id=b.id  WHERE a.id IN ('20')  [ RunTime:0.0019s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001890s ]
+
+[ 2018-05-17T09:19:54+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001916s ]
+
+[ 2018-05-17T09:20:34+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002583s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0014s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','29') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,29)  [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001429s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001718s ]
+
+[ 2018-05-17T09:20:34+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003116s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0016s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '36' AND `promote_price` > 0 AND `promote_start_date` <= '2018-05-17 09:20' AND `promote_end_date` >= '2018-05-17 09:20' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001546s ]
+
+[ 2018-05-17T09:20:34+08:00 ] ::1 /www.39.com/index.php/Home/Comment/ajaxGetPl/goods_id/36/p/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003725s ]
+ERR: 非法操作:ajaxGetPl
+
+[ 2018-05-17T09:20:34+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001473s ]
+
+[ 2018-05-17T09:20:49+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002270s ]
+
+[ 2018-05-17T09:20:54+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002123s ]
+
+[ 2018-05-17T09:21:03+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001852s ]
+
+[ 2018-05-17T09:21:08+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001994s ]
+
+[ 2018-05-17T09:21:13+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001914s ]
+
+[ 2018-05-17T09:21:17+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003417s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002676s ]
+
+[ 2018-05-17T09:21:40+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002043s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002104s ]
+
+[ 2018-05-17T09:22:06+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001909s ]
+
+[ 2018-05-17T09:22:14+08:00 ] ::1 /www.39.com/index.php/Home/Cart/ajaxCartList.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003639s ]
+NOTIC: [2048] Declaration of Home\Model\CartModel::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\www.39.com\Application\Home\Model\CartModel.class.php 第 5 行.
+SQL: SHOW COLUMNS FROM `p39_cart` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `p39_cart` WHERE `member_id` = '1'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `p39_goods_attr` [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002667s ]
+
+[ 2018-05-17T09:22:40+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search/cat_id/12
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') AND a.brand_id <> 0' at line 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN () AND a.brand_id <> 0 
+
+[ 2018-05-17T09:22:44+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001860s ]
+
+[ 2018-05-17T09:22:47+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001899s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002167s ]
+
+[ 2018-05-17T09:22:53+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001795s ]
+
+[ 2018-05-17T09:22:54+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005183s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002192s ]
+
+[ 2018-05-17T09:23:09+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002355s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002629s ]
+
+[ 2018-05-17T09:23:12+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002650s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002896s ]
+
+[ 2018-05-17T09:23:36+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002076s ]
+
+[ 2018-05-17T10:00:40+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001787s ]
+

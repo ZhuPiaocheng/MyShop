@@ -1,0 +1,334 @@
+[ 2018-03-29T11:02:24+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003567s ]
+
+[ 2018-03-29T11:02:24+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003427s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0117s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0146s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '' AND `promote_price` > 0 AND `promote_start_date` <= '2018-03-29 11:02' AND `promote_end_date` >= '2018-03-29 11:02' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001395s ]
+
+[ 2018-03-29T11:02:24+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002165s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.1220s ]
+ERR: 1064:Erreur de syntaxe près de '36,33,35,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('','36','33','35','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,,36,33,35,29,32) 
+ERR: 1064:Erreur de syntaxe près de '36,33,35,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('','36','33','35','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,,36,33,35,29,32) 
+
+[ 2018-03-29T11:02:31+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002720s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004933s ]
+
+[ 2018-03-29T11:02:39+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013868s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001820s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002320s ]
+
+[ 2018-03-29T11:02:47+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006485s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005125s ]
+
+[ 2018-03-29T11:03:15+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search
+ERR: 1054:Champ 'Array' inconnu dans where clause
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id = Array AND a.brand_id <> 0 
+
+[ 2018-03-29T11:05:14+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search
+ERR: 1064:Erreur de syntaxe près de ') AND a.brand_id <> 0' à la ligne 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN () AND a.brand_id <> 0 
+
+[ 2018-03-29T11:06:55+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search
+ERR: 1064:Erreur de syntaxe près de ') AND a.brand_id <> 0' à la ligne 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN () AND a.brand_id <> 0 
+
+[ 2018-03-29T11:06:56+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search
+ERR: 1064:Erreur de syntaxe près de ') AND a.brand_id <> 0' à la ligne 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN () AND a.brand_id <> 0 
+
+[ 2018-03-29T11:06:56+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search
+ERR: 1064:Erreur de syntaxe près de ') AND a.brand_id <> 0' à la ligne 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN () AND a.brand_id <> 0 
+
+[ 2018-03-29T11:06:57+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search
+ERR: 1064:Erreur de syntaxe près de ') AND a.brand_id <> 0' à la ligne 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN () AND a.brand_id <> 0 
+
+[ 2018-03-29T11:07:33+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search
+ERR: Think\Model:getSearchConditionByCatId方法不存在！
+
+[ 2018-03-29T11:07:34+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search
+ERR: Think\Model:getSearchConditionByCatId方法不存在！
+
+[ 2018-03-29T11:10:53+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search
+ERR: 1064:Erreur de syntaxe près de ') AND a.brand_id <> 0' à la ligne 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN () AND a.brand_id <> 0 
+
+[ 2018-03-29T11:24:27+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002416s ]
+
+[ 2018-03-29T11:24:34+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001376s ]
+
+[ 2018-03-29T11:24:39+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002122s ]
+
+[ 2018-03-29T11:25:33+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search
+ERR: 1054:Champ 'a.attr_name' inconnu dans field list
+ [ SQL语句 ] : SELECT DISTINCT a.attr_id,a.attr_value,a.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE a.goods_id IN ('1','2','3','5','9','10','11','12','13','14','15','16','17','21','23','24') 
+
+[ 2018-03-29T11:26:05+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002649s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001747s ]
+
+[ 2018-03-29T11:27:31+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search
+ERR: 1054:Champ 'a.attr_name' inconnu dans field list
+ [ SQL语句 ] : SELECT DISTINCT a.attr_id,a.attr_value,a.attr_name FROM p39_goods_attr a LEFT JOIN p39_attribute b ON a.attr_id=b.id  WHERE a.goods_id IN ('1','2','3','5','9','10','11','12','13','14','15','16','17','21','23','24') AND a.attr_value <> '' 
+
+[ 2018-03-29T11:28:41+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003861s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003111s ]
+
+[ 2018-03-29T11:28:43+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002946s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002237s ]
+
+[ 2018-03-29T11:28:44+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006515s ]
+
+[ 2018-03-29T11:30:48+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002939s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0120s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0154s ]
+ERR: 1064:Erreur de syntaxe près de '36,33,35,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('','36','33','35','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,,36,33,35,29,32) 
+ERR: 1064:Erreur de syntaxe près de '36,33,35,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('','36','33','35','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,,36,33,35,29,32) 
+
+[ 2018-03-29T11:30:49+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026463s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0286s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0142s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '' AND `promote_price` > 0 AND `promote_start_date` <= '2018-03-29 11:30' AND `promote_end_date` >= '2018-03-29 11:30' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.0160s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `goods_id` = '' AND `level_id` = '1' LIMIT 1   [ RunTime:0.0677s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002227s ]
+
+[ 2018-03-29T11:30:49+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003634s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002548s ]
+
+[ 2018-03-29T11:30:53+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005159s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002566s ]
+
+[ 2018-03-29T11:31:00+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004693s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001881s ]
+
+[ 2018-03-29T11:31:04+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002966s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001642s ]
+
+[ 2018-03-29T11:31:06+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002036s ]
+
+[ 2018-03-29T11:31:12+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004668s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001425s ]
+
+[ 2018-03-29T11:31:17+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001949s ]
+
+[ 2018-03-29T11:31:20+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search/cat_id/3.html
+ERR: 1064:Erreur de syntaxe près de ') AND a.brand_id <> 0' à la ligne 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN () AND a.brand_id <> 0 
+
+[ 2018-03-29T11:31:27+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001753s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2018-03-29T11:31:30+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search/cat_id/10.html
+ERR: 1064:Erreur de syntaxe près de ') AND a.brand_id <> 0' à la ligne 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN () AND a.brand_id <> 0 
+
+[ 2018-03-29T11:31:31+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001634s ]
+
+[ 2018-03-29T11:31:33+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001920s ]
+
+[ 2018-03-29T11:31:36+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001770s ]
+
+[ 2018-03-29T11:31:39+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search/cat_id/4.html
+ERR: 1064:Erreur de syntaxe près de ') AND a.brand_id <> 0' à la ligne 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN () AND a.brand_id <> 0 
+
+[ 2018-03-29T11:31:40+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002940s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002044s ]
+
+[ 2018-03-29T11:31:42+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search/cat_id/3.html
+ERR: 1064:Erreur de syntaxe près de ') AND a.brand_id <> 0' à la ligne 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN () AND a.brand_id <> 0 
+
+[ 2018-03-29T11:31:43+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001806s ]
+
+[ 2018-03-29T11:31:46+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001306s ]
+
+[ 2018-03-29T11:31:49+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search/cat_id/18.html
+ERR: 1064:Erreur de syntaxe près de ') AND a.brand_id <> 0' à la ligne 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN () AND a.brand_id <> 0 
+
+[ 2018-03-29T11:31:50+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001526s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001757s ]
+
+[ 2018-03-29T11:31:51+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001641s ]
+
+[ 2018-03-29T11:31:59+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003250s ]
+

@@ -1,0 +1,36 @@
+[ 2017-12-04T10:11:28+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.id IN ('26','27','28','29') LIMIT 1  
+
+[ 2017-12-04T10:11:33+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=1&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND `brand_id` = '1' AND a.id IN ('26','27','28','29') LIMIT 1  
+
+[ 2017-12-04T10:11:36+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=1&gn=&fp=&tp=&fa=&ta=&odby=id_asc
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND `brand_id` = '1' AND a.id IN ('26','27','28','29') LIMIT 1  
+
+[ 2017-12-04T10:12:21+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.id IN ('26','27','28','29') LIMIT 1  
+
+[ 2017-12-04T10:12:31+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=1&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND `brand_id` = '1' AND a.id IN ('26','27','28','29') LIMIT 1  
+
+[ 2017-12-04T10:13:59+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=1&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND `brand_id` = '1' AND a.id IN ('26','27','28','29') LIMIT 1  
+
+[ 2017-12-04T10:14:48+08:00 ] ::1 /www.39.com/index.php/Admin/Index/categoryList.html
+ERR: 非法操作:categoryList
+
+[ 2017-12-04T10:14:52+08:00 ] ::1 /www.39.com/index.php/Admin/Index/categoryList.html
+ERR: 非法操作:categoryList
+
+[ 2017-12-04T16:29:54+08:00 ] ::1 /www.39.com/index.php/Admin/Index/categoryList.html
+ERR: 非法操作:categoryList
+
+[ 2017-12-04T18:23:11+08:00 ] ::1 /www.39.com/index.php/Admin/Attribute/lst%EF%BC%9Ftype_id=1.html
+ERR: 非法操作:lst？type_id=1
+

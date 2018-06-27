@@ -1,0 +1,4 @@
+[ 2018-03-01T17:45:14+08:00 ] ::1 /www.39.com/index.php/Home/Index
+ERR: 1064:Erreur de syntaxe près de ') AND a.brand_id <> 0 LIMIT 9' à la ligne 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON  a.brand_id = b.id  WHERE a.id IN () AND a.brand_id <> 0 LIMIT 9  
+

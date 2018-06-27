@@ -1,0 +1,12 @@
+[ 2018-06-23T22:11:05+08:00 ] 127.0.0.1 /favicon.ico
+ERR: 无法加载模块:Favicon
+
+[ 2018-06-23T22:11:41+08:00 ] ::1 /www.39.com/Public/jquery-ui-1.9.2.custom/css/blitzer/jquery-ui-1.9.2.custom.css
+ERR: 无法加载模块:Public
+
+[ 2018-06-23T22:11:42+08:00 ] ::1 /www.39.com/Public/jquery-ui-1.9.2.custom/js/jquery-ui-1.9.2.custom.js
+ERR: 无法加载模块:Public
+
+[ 2018-06-23T22:11:42+08:00 ] ::1 /www.39.com/Public/Home/images/zoomloader.gif
+ERR: 无法加载模块:Public
+

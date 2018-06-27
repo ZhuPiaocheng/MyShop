@@ -1,0 +1,1070 @@
+[ 2018-04-01T20:22:46+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001140s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2018-04-01T20:22:49+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004202s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001450s ]
+
+[ 2018-04-01T20:23:00+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001524s ]
+
+[ 2018-04-01T20:23:07+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002819s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001404s ]
+
+[ 2018-04-01T20:23:09+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search/cat_id/4
+ERR: 1064:Erreur de syntaxe près de ') AND a.brand_id <> 0' à la ligne 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN () AND a.brand_id <> 0 
+
+[ 2018-04-01T20:23:13+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002516s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001675s ]
+
+[ 2018-04-01T20:23:18+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000984s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2018-04-01T20:23:23+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001666s ]
+
+[ 2018-04-01T20:23:26+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001593s ]
+
+[ 2018-04-01T20:23:31+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search/cat_id/3
+ERR: 1064:Erreur de syntaxe près de ') AND a.brand_id <> 0' à la ligne 1
+ [ SQL语句 ] : SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  WHERE a.id IN () AND a.brand_id <> 0 
+
+[ 2018-04-01T20:23:32+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2018-04-01T20:23:35+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002977s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2018-04-01T20:23:39+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001320s ]
+
+[ 2018-04-01T20:23:42+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002920s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001574s ]
+
+[ 2018-04-01T20:23:52+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000900s ]
+
+[ 2018-04-01T20:23:58+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004969s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003415s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003701s ]
+
+[ 2018-04-01T20:24:01+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002458s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001275s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001515s ]
+
+[ 2018-04-01T20:24:01+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/35.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002746s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0609s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0259s ]
+ERR: 1064:Erreur de syntaxe près de '36,33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('35','','36','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,35,,36,33,29,32) 
+ERR: 1064:Erreur de syntaxe près de '36,33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('35','','36','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,35,,36,33,29,32) 
+
+[ 2018-04-01T20:24:01+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/35.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002800s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0166s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0178s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '35' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-01 20:24' AND `promote_end_date` >= '2018-04-01 20:24' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.0167s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `goods_id` = '35' AND `level_id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001723s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001946s ]
+
+[ 2018-04-01T20:24:03+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003498s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002617s ]
+
+[ 2018-04-01T20:24:06+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002881s ]
+
+[ 2018-04-01T20:24:08+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2018-04-01T20:49:52+08:00 ] ::1 /www.39.com/index.php/Home/Search/cat_search/cat_id/1
+ERR: Think\Model:getSearchConditionByGoodsId方法不存在！
+
+[ 2018-04-01T20:51:03+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001491s ]
+
+[ 2018-04-01T20:52:32+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001269s ]
+
+[ 2018-04-01T20:52:36+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002698s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0169s ]
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+
+[ 2018-04-01T20:52:36+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003996s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0241s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0223s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '36' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-01 20:52' AND `promote_end_date` >= '2018-04-01 20:52' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.0106s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `goods_id` = '36' AND `level_id` = '1' LIMIT 1   [ RunTime:0.0380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001611s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001868s ]
+
+[ 2018-04-01T20:52:36+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003144s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003988s ]
+
+[ 2018-04-01T22:00:21+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003636s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0295s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0146s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '36' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-01 22:00' AND `promote_end_date` >= '2018-04-01 22:00' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.0177s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `goods_id` = '36' AND `level_id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002764s ]
+
+[ 2018-04-01T22:00:21+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009012s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0165s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0160s ]
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+
+[ 2018-04-01T22:00:21+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002061s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002283s ]
+
+[ 2018-04-01T22:00:37+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002950s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002562s ]
+
+[ 2018-04-01T22:00:39+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002761s ]
+
+[ 2018-04-01T22:00:54+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002206s ]
+
+[ 2018-04-01T22:01:00+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004558s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002811s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005291s ]
+
+[ 2018-04-01T22:01:03+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006176s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0144s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0159s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '36' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-01 22:01' AND `promote_end_date` >= '2018-04-01 22:01' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.0286s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `goods_id` = '36' AND `level_id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002592s ]
+
+[ 2018-04-01T22:01:04+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006287s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.2291s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0161s ]
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+
+[ 2018-04-01T22:01:04+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003872s ]
+
+[ 2018-04-01T22:01:43+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003334s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0440s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0201s ]
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+
+[ 2018-04-01T22:01:43+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012026s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0191s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0211s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '36' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-01 22:01' AND `promote_end_date` >= '2018-04-01 22:01' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.0111s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `goods_id` = '36' AND `level_id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001484s ]
+
+[ 2018-04-01T22:01:43+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002447s ]
+
+[ 2018-04-01T22:01:44+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002654s ]
+
+[ 2018-04-01T22:01:44+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002770s ]
+
+[ 2018-04-01T22:01:45+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003030s ]
+
+[ 2018-04-01T22:01:45+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003023s ]
+
+[ 2018-04-01T22:01:47+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002458s ]
+
+[ 2018-04-01T22:01:47+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003411s ]
+
+[ 2018-04-01T22:01:47+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002421s ]
+
+[ 2018-04-01T22:01:48+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002341s ]
+
+[ 2018-04-01T22:01:49+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002340s ]
+
+[ 2018-04-01T22:01:49+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002816s ]
+
+[ 2018-04-01T22:01:49+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003593s ]
+
+[ 2018-04-01T22:01:49+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002964s ]
+
+[ 2018-04-01T22:01:50+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003409s ]
+
+[ 2018-04-01T22:01:50+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002275s ]
+
+[ 2018-04-01T22:01:50+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002400s ]
+
+[ 2018-04-01T22:01:52+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004105s ]
+
+[ 2018-04-01T22:01:53+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003258s ]
+
+[ 2018-04-01T22:01:53+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003418s ]
+
+[ 2018-04-01T22:08:11+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002761s ]
+
+[ 2018-04-01T22:08:12+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003464s ]
+
+[ 2018-04-01T22:08:12+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003300s ]
+
+[ 2018-04-01T22:08:13+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003072s ]
+
+[ 2018-04-01T22:08:13+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002794s ]
+
+[ 2018-04-01T22:08:13+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003612s ]
+
+[ 2018-04-01T22:08:13+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004303s ]
+
+[ 2018-04-01T22:09:49+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.032267s ]
+
+[ 2018-04-01T22:14:14+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002844s ]
+
+[ 2018-04-01T22:14:15+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002397s ]
+
+[ 2018-04-01T22:14:15+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002620s ]
+
+[ 2018-04-01T22:14:15+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002783s ]
+
+[ 2018-04-01T22:14:16+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002171s ]
+
+[ 2018-04-01T22:14:16+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002939s ]
+
+[ 2018-04-01T22:15:01+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003927s ]
+
+[ 2018-04-01T22:15:01+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016329s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0167s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0184s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '36' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-01 22:15' AND `promote_end_date` >= '2018-04-01 22:15' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.0197s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `goods_id` = '36' AND `level_id` = '1' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002497s ]
+
+[ 2018-04-01T22:15:02+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004542s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0294s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0143s ]
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+
+[ 2018-04-01T22:15:03+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002080s ]
+
+[ 2018-04-01T22:15:05+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002432s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0151s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0169s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '36' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-01 22:15' AND `promote_end_date` >= '2018-04-01 22:15' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.0154s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `goods_id` = '36' AND `level_id` = '1' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001456s ]
+
+[ 2018-04-01T22:15:05+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007886s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0178s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0090s ]
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+
+[ 2018-04-01T22:15:05+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013828s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002449s ]
+
+[ 2018-04-01T22:15:12+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005279s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.1157s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0342s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '36' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-01 22:15' AND `promote_end_date` >= '2018-04-01 22:15' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.0741s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `goods_id` = '36' AND `level_id` = '1' LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003141s ]
+
+[ 2018-04-01T22:15:12+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003160s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0575s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0859s ]
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+
+[ 2018-04-01T22:15:12+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002115s ]
+
+[ 2018-04-01T22:15:16+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003348s ]
+
+[ 2018-04-01T22:15:17+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002374s ]
+
+[ 2018-04-01T22:15:17+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003418s ]
+
+[ 2018-04-01T22:15:17+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002560s ]
+
+[ 2018-04-01T22:15:18+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003971s ]
+
+[ 2018-04-01T22:15:18+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002437s ]
+
+[ 2018-04-01T22:15:18+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001826s ]
+
+[ 2018-04-01T22:15:18+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001976s ]
+
+[ 2018-04-01T22:15:18+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001973s ]
+
+[ 2018-04-01T22:15:18+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001930s ]
+
+[ 2018-04-01T22:15:19+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002611s ]
+
+[ 2018-04-01T22:15:19+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001949s ]
+
+[ 2018-04-01T22:15:19+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002914s ]
+
+[ 2018-04-01T22:15:19+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002086s ]
+
+[ 2018-04-01T22:15:19+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001143s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001913s ]
+
+[ 2018-04-01T22:15:20+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002247s ]
+
+[ 2018-04-01T22:15:21+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002789s ]
+
+[ 2018-04-01T22:16:54+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003167s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0300s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0271s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '36' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-01 22:16' AND `promote_end_date` >= '2018-04-01 22:16' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.0138s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `goods_id` = '36' AND `level_id` = '1' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001244s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001449s ]
+
+[ 2018-04-01T22:16:54+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026416s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0142s ]
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+
+[ 2018-04-01T22:16:54+08:00 ] ::1 /www.39.com/index.php/Home/Comment/ajaxGetPl/goods_id/36/p/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008349s ]
+ERR: 非法操作:ajaxGetPl
+
+[ 2018-04-01T22:16:55+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003743s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005460s ]
+
+[ 2018-04-01T22:16:56+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003037s ]
+
+[ 2018-04-01T22:16:59+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003196s ]
+
+[ 2018-04-01T22:16:59+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002943s ]
+
+[ 2018-04-01T22:16:59+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003364s ]
+
+[ 2018-04-01T22:17:01+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003307s ]
+
+[ 2018-04-01T22:17:01+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002244s ]
+
+[ 2018-04-01T22:17:01+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001975s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003499s ]
+
+[ 2018-04-01T22:17:01+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003203s ]
+
+[ 2018-04-01T22:17:03+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002368s ]
+
+[ 2018-04-01T22:17:03+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002508s ]
+
+[ 2018-04-01T22:17:03+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002395s ]
+
+[ 2018-04-01T22:17:04+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002784s ]
+
+[ 2018-04-01T22:18:18+08:00 ] ::1 /www.39.com/index.php/Home/Comment/ajaxGetPl/goods_id/36/p/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003851s ]
+ERR: 非法操作:ajaxGetPl
+
+[ 2018-04-01T22:18:18+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003681s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0242s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0268s ]
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+
+[ 2018-04-01T22:18:19+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006169s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0148s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '36' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-01 22:18' AND `promote_end_date` >= '2018-04-01 22:18' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.0131s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `goods_id` = '36' AND `level_id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001298s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001424s ]
+
+[ 2018-04-01T22:18:19+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003175s ]
+
+[ 2018-04-01T22:18:20+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002578s ]
+
+[ 2018-04-01T22:18:22+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003712s ]
+
+[ 2018-04-01T22:18:26+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002493s ]
+
+[ 2018-04-01T22:18:26+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002186s ]
+
+[ 2018-04-01T22:18:26+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001945s ]
+
+[ 2018-04-01T22:18:50+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003184s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0176s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '36' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-01 22:18' AND `promote_end_date` >= '2018-04-01 22:18' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `p39_member_price` [ RunTime:0.0147s ]
+SQL: SELECT `price` FROM `p39_member_price` WHERE `goods_id` = '36' AND `level_id` = '1' LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003239s ]
+
+[ 2018-04-01T22:18:50+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008439s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0144s ]
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+
+[ 2018-04-01T22:18:50+08:00 ] ::1 /www.39.com/index.php/Home/Comment/ajaxGetPl/goods_id/36/p/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016222s ]
+ERR: 非法操作:ajaxGetPl
+
+[ 2018-04-01T22:18:50+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002969s ]
+
+[ 2018-04-01T22:18:51+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+
+[ 2018-04-01T22:18:52+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002120s ]
+
+[ 2018-04-01T22:18:52+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001994s ]
+
+[ 2018-04-01T22:18:53+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002250s ]
+
+[ 2018-04-01T22:18:53+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002211s ]
+
+[ 2018-04-01T22:19:21+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003886s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002726s ]
+
+[ 2018-04-01T22:19:27+08:00 ] ::1 /www.39.com/index.php/Home/Index/displayHistory/id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003045s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0292s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0140s ]
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+ERR: 1064:Erreur de syntaxe près de '33,29,32)' à la ligne 1
+ [ SQL语句 ] : SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('36','35','','33','29','32') AND `is_on_sale` = '是' ORDER BY FIELD(id,36,35,,33,29,32) 
+
+[ 2018-04-01T22:19:27+08:00 ] ::1 /www.39.com/index.php/Home/Comment/ajaxGetPl/goods_id/36/p/1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003220s ]
+ERR: 非法操作:ajaxGetPl
+
+[ 2018-04-01T22:19:27+08:00 ] ::1 /www.39.com/index.php/Home/Index/ajaxGetMemberPrice/goods_id/36.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004471s ]
+SQL: SHOW COLUMNS FROM `p39_category` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `p39_goods` [ RunTime:0.0155s ]
+SQL: SELECT `promote_price` FROM `p39_goods` WHERE `id` = '36' AND `promote_price` > 0 AND `promote_start_date` <= '2018-04-01 22:19' AND `promote_end_date` >= '2018-04-01 22:19' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `shop_price` FROM `p39_goods` WHERE `id` = 36 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002131s ]
+
+[ 2018-04-01T22:19:27+08:00 ] ::1 /www.39.com/index.php/Home/Member/ajaxChkLogin.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010873s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008092s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008367s ]
+
+[ 2018-04-01T22:19:30+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002437s ]
+
+[ 2018-04-01T22:19:30+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002793s ]
+
+[ 2018-04-01T22:19:30+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002314s ]
+
+[ 2018-04-01T22:19:31+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002290s ]
+
+[ 2018-04-01T22:19:32+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002037s ]
+
+[ 2018-04-01T22:19:32+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002302s ]
+
+[ 2018-04-01T22:19:32+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002243s ]
+
+[ 2018-04-01T22:19:33+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002441s ]
+
+[ 2018-04-01T22:19:33+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002967s ]
+
+[ 2018-04-01T22:19:33+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002443s ]
+
+[ 2018-04-01T22:19:33+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001842s ]
+
+[ 2018-04-01T22:19:33+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002169s ]
+
+[ 2018-04-01T22:19:34+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001995s ]
+
+[ 2018-04-01T22:19:36+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002555s ]
+
+[ 2018-04-01T22:19:37+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002434s ]
+
+[ 2018-04-01T22:19:39+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002642s ]
+
+[ 2018-04-01T22:19:40+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002785s ]
+
+[ 2018-04-01T22:19:41+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002180s ]
+
+[ 2018-04-01T22:19:42+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003116s ]
+
+[ 2018-04-01T22:19:44+08:00 ] ::1 /www.39.com/index.php/Home/Comment/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002308s ]
+

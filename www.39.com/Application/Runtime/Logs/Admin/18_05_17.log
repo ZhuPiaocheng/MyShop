@@ -1,0 +1,36 @@
+[ 2018-05-17T09:26:49+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/Order/orderList
+ERR: 非法操作:__GROUP__
+
+[ 2018-05-17T09:26:54+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/Index/main
+ERR: 非法操作:__GROUP__
+
+[ 2018-05-17T09:26:56+08:00 ] ::1 /www.39.com/index.php/Admin/Index/__GROUP__/User/userList
+ERR: 非法操作:__GROUP__
+
+[ 2018-05-17T09:32:44+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/ajaxGetAttr/type_id/4
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002406s ]
+SQL: SHOW COLUMNS FROM `p39_privilege` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `p39_attribute` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `p39_attribute` WHERE `type_id` = '4'  [ RunTime:0.0184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001459s ]
+
+[ 2018-05-17T09:33:10+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/add.html
+ERR: 1366:Incorrect decimal value: '' for column 'promote_price' at row 1
+ [ SQL语句 ] : INSERT INTO `p39_goods` (`cat_id`,`brand_id`,`goods_name`,`market_price`,`shop_price`,`is_on_sale`,`is_floor`,`promote_price`,`promote_start_date`,`promote_end_date`,`is_new`,`is_best`,`is_hot`,`sort_num`,`goods_desc`,`type_id`,`logo`,`mbig_logo`,`big_logo`,`mid_logo`,`sm_logo`,`addtime`) VALUES ('1','3','小米Note3','1999','1799','是','是','','','','是','是','是','100','','4','Goods/2018-05-17/5afcdbd58f4c7.jpg','Goods/2018-05-17/thumb_0_5afcdbd58f4c7.jpg','Goods/2018-05-17/thumb_1_5afcdbd58f4c7.jpg','Goods/2018-05-17/thumb_2_5afcdbd58f4c7.jpg','Goods/2018-05-17/thumb_3_5afcdbd58f4c7.jpg','2018-05-17 09:33:09')
+
+[ 2018-05-17T09:33:47+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/add.html
+ERR: 1366:Incorrect decimal value: '' for column 'promote_price' at row 1
+ [ SQL语句 ] : INSERT INTO `p39_goods` (`cat_id`,`brand_id`,`goods_name`,`market_price`,`shop_price`,`is_on_sale`,`is_floor`,`promote_price`,`promote_start_date`,`promote_end_date`,`is_new`,`is_best`,`is_hot`,`sort_num`,`goods_desc`,`type_id`,`logo`,`mbig_logo`,`big_logo`,`mid_logo`,`sm_logo`,`addtime`) VALUES ('1','3','小米Note3','1999','1799','是','是','','','','是','否','是','150','','4','Goods/2018-05-17/5afcdbfad35e2.jpg','Goods/2018-05-17/thumb_0_5afcdbfad35e2.jpg','Goods/2018-05-17/thumb_1_5afcdbfad35e2.jpg','Goods/2018-05-17/thumb_2_5afcdbfad35e2.jpg','Goods/2018-05-17/thumb_3_5afcdbfad35e2.jpg','2018-05-17 09:33:46')
+
+[ 2018-05-17T09:34:23+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/add.html
+ERR: 1366:Incorrect decimal value: '' for column 'promote_price' at row 1
+ [ SQL语句 ] : INSERT INTO `p39_goods` (`cat_id`,`brand_id`,`goods_name`,`market_price`,`shop_price`,`is_on_sale`,`is_floor`,`promote_price`,`promote_start_date`,`promote_end_date`,`is_new`,`is_best`,`is_hot`,`sort_num`,`goods_desc`,`type_id`,`logo`,`mbig_logo`,`big_logo`,`mid_logo`,`sm_logo`,`addtime`) VALUES ('1','3','小米Note3','1999','1799','是','是','','','','否','否','否','150','','4','Goods/2018-05-17/5afcdc1f54b87.jpg','Goods/2018-05-17/thumb_0_5afcdc1f54b87.jpg','Goods/2018-05-17/thumb_1_5afcdc1f54b87.jpg','Goods/2018-05-17/thumb_2_5afcdc1f54b87.jpg','Goods/2018-05-17/thumb_3_5afcdc1f54b87.jpg','2018-05-17 09:34:23')
+
+[ 2018-05-17T09:34:38+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/add.html
+ERR: 1292:Incorrect datetime value: '' for column 'promote_start_date' at row 1
+ [ SQL语句 ] : INSERT INTO `p39_goods` (`cat_id`,`brand_id`,`goods_name`,`market_price`,`shop_price`,`is_on_sale`,`is_floor`,`promote_price`,`promote_start_date`,`promote_end_date`,`is_new`,`is_best`,`is_hot`,`sort_num`,`goods_desc`,`type_id`,`logo`,`mbig_logo`,`big_logo`,`mid_logo`,`sm_logo`,`addtime`) VALUES ('1','3','小米Note3','1999','1799','是','是','1','','','否','否','否','150','','4','Goods/2018-05-17/5afcdc2e45418.jpg','Goods/2018-05-17/thumb_0_5afcdc2e45418.jpg','Goods/2018-05-17/thumb_1_5afcdc2e45418.jpg','Goods/2018-05-17/thumb_2_5afcdc2e45418.jpg','Goods/2018-05-17/thumb_3_5afcdc2e45418.jpg','2018-05-17 09:34:38')
+

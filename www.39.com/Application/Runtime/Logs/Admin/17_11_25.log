@@ -1,0 +1,172 @@
+[ 2017-11-25T16:41:18+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst.html
+ERR: 1146:La table 'php39.__category__' n'existe pas
+ [ SQL语句 ] : SELECT a.*,b.brand_name,c.cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id LEFT JOIN __Category__ c ON a.cat_id = c.id  WHERE `goods_name` LIKE '%%' ORDER BY a.id desc LIMIT 0,5  
+
+[ 2017-11-25T16:56:14+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=23&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.cat_id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.cat_id IN ('24','23') LIMIT 1  
+
+[ 2017-11-25T20:09:51+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/add.html
+ERR: 1146:La table 'php39.p39_good_cat' n'existe pas
+ [ SQL语句 ] : SHOW COLUMNS FROM `p39_good_cat`
+
+[ 2017-11-25T20:10:41+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/add.html
+ERR: 1048:Le champ 'goods_id' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `p39_goods_cat` (`cat_id`,`goods_id`) VALUES ('22',NULL)
+
+[ 2017-11-25T20:13:12+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/add.html
+ERR: 1048:Le champ 'goods_id' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `p39_goods_cat` (`cat_id`,`goods_id`) VALUES ('23',NULL)
+
+[ 2017-11-25T20:14:44+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/add.html
+ERR: 1048:Le champ 'goods_id' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `p39_goods_cat` (`cat_id`,`goods_id`) VALUES ('22',NULL)
+
+[ 2017-11-25T20:16:01+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/add.html
+ERR: 1048:Le champ 'goods_id' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `p39_goods_cat` (`cat_id`,`goods_id`) VALUES ('22',NULL)
+
+[ 2017-11-25T20:18:53+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/add.html
+ERR: 1048:Le champ 'goods_id' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `p39_goods_cat` (`cat_id`,`goods_id`) VALUES ('22',NULL)
+
+[ 2017-11-25T20:19:07+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/add.html
+ERR: 1048:Le champ 'goods_id' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `p39_goods_cat` (`cat_id`,`goods_id`) VALUES ('22',NULL)
+
+[ 2017-11-25T20:23:25+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/add.html
+ERR: 1048:Le champ 'goods_id' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `p39_goods_cat` (`cat_id`,`goods_id`) VALUES ('22',NULL)
+
+[ 2017-11-25T20:34:52+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1052:Champ: 'cat_id' dans where clause est ambigu
+ [ SQL语句 ] : SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name) ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  
+                        LEFT JOIN p39_category c ON a.cat_id = c.id 
+                        LEFT JOIN p39_goods_cat d ON a.id = d.goods_id 
+                        LEFT JOIN p39_category e ON d.cat_id = e.id  WHERE `goods_name` LIKE '%%' AND `cat_id` IN ('16','22','23','24','17','18','19','20','1') GROUP BY a.id ORDER BY a.id desc LIMIT 0,5  
+
+[ 2017-11-25T20:35:14+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=22&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1052:Champ: 'cat_id' dans where clause est ambigu
+ [ SQL语句 ] : SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name) ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  
+                        LEFT JOIN p39_category c ON a.cat_id = c.id 
+                        LEFT JOIN p39_goods_cat d ON a.id = d.goods_id 
+                        LEFT JOIN p39_category e ON d.cat_id = e.id  WHERE `goods_name` LIKE '%%' AND `cat_id` IN ('23','24','22') GROUP BY a.id ORDER BY a.id desc LIMIT 0,5  
+
+[ 2017-11-25T20:36:10+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1052:Champ: 'cat_id' dans where clause est ambigu
+ [ SQL语句 ] : SELECT a.*,b.brand_name,c.cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  
+                        LEFT JOIN p39_category c ON a.cat_id = c.id 
+                        LEFT JOIN p39_goods_cat d ON a.id = d.goods_id 
+                        LEFT JOIN p39_category e ON d.cat_id = e.id  WHERE `goods_name` LIKE '%%' AND `cat_id` IN ('16','22','23','24','17','18','19','20','1') GROUP BY a.id ORDER BY a.id desc LIMIT 0,5  
+
+[ 2017-11-25T20:37:18+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst.html
+ERR: 1054:Champ 'a.goods_name' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE a.goods_name LIKE '%%' LIMIT 1  
+
+[ 2017-11-25T20:37:19+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst.html
+ERR: 1054:Champ 'a.goods_name' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE a.goods_name LIKE '%%' LIMIT 1  
+
+[ 2017-11-25T20:37:47+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=16&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.cat_id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.cat_id IN ('22','23','24','16') LIMIT 1  
+
+[ 2017-11-25T20:41:29+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: Think\Model:getGoodsIdByCatId方法不存在！
+
+[ 2017-11-25T20:43:23+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.cat_id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE a.cat_id IN ('16','22','23','24','17','18','19','20','1') LIMIT 1  
+
+[ 2017-11-25T20:43:49+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.cat_id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE a.cat_id IN ('16','22','23','24','17','18','19','20','1') LIMIT 1  
+
+[ 2017-11-25T20:45:36+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=16&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.cat_id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.cat_id IN ('22','23','24','16') LIMIT 1  
+
+[ 2017-11-25T20:46:31+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1052:Champ: 'cat_id' dans where clause est ambigu
+ [ SQL语句 ] : SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name) ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id  
+                        LEFT JOIN p39_category c ON a.cat_id = c.id 
+                        LEFT JOIN p39_goods_cat d ON a.id = d.goods_id 
+                        LEFT JOIN p39_category e ON d.cat_id = e.id  WHERE `goods_name` LIKE '%%' AND `cat_id` IN ('16','22','23','24','17','18','19','20','1') GROUP BY a.id ORDER BY a.id desc LIMIT 0,5  
+
+[ 2017-11-25T20:47:02+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'd.cat_id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND d.cat_id IN ('16','22','23','24','17','18','19','20','1') LIMIT 1  
+
+[ 2017-11-25T20:54:10+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.cat_id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.cat_id IN ('16','22','23','24','17','18','19','20','1') LIMIT 1  
+
+[ 2017-11-25T20:56:33+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=&brand_id=1&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.brand_id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.brand_id = '1' LIMIT 1  
+
+[ 2017-11-25T20:56:53+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=&brand_id=&gn=&fp=&tp=&fa=2017-11-01+20%3A56&ta=2017-11-25+20%3A56&odby=id_desc
+ERR: 1054:Champ 'a.addtime' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.addtime BETWEEN '2017-11-01 20:56' AND '2017-11-25 20:56' LIMIT 1  
+
+[ 2017-11-25T20:57:48+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=&brand_id=1&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.brand_id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.brand_id = '1' LIMIT 1  
+
+[ 2017-11-25T20:59:07+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst.html
+ERR: 1054:Champ 'e.cat_name' inconnu dans field list
+ [ SQL语句 ] : SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id      
+		        LEFT JOIN p39_category c ON a.cat_id=c.id  WHERE `goods_name` LIKE '%%' ORDER BY a.id desc LIMIT 0,5  
+
+[ 2017-11-25T20:59:08+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst.html
+ERR: 1054:Champ 'e.cat_name' inconnu dans field list
+ [ SQL语句 ] : SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id      
+		        LEFT JOIN p39_category c ON a.cat_id=c.id  WHERE `goods_name` LIKE '%%' ORDER BY a.id desc LIMIT 0,5  
+
+[ 2017-11-25T20:59:24+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=&brand_id=1&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.brand_id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.brand_id = '1' LIMIT 1  
+
+[ 2017-11-25T21:02:09+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1052:Champ: 'cat_id' dans where clause est ambigu
+ [ SQL语句 ] : SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id      
+		        LEFT JOIN p39_category c ON a.cat_id=c.id
+		        LEFT JOIN p39_goods_cat d ON a.id=d.goods_id 
+		        LEFT JOIN p39_category e ON d.cat_id=e.id  WHERE `goods_name` LIKE '%%' AND `cat_id` IN ('16','22','23','24','17','18','19','20','1') GROUP BY a.id ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-25T21:02:13+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=1&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1052:Champ: 'cat_id' dans where clause est ambigu
+ [ SQL语句 ] : SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id      
+		        LEFT JOIN p39_category c ON a.cat_id=c.id
+		        LEFT JOIN p39_goods_cat d ON a.id=d.goods_id 
+		        LEFT JOIN p39_category e ON d.cat_id=e.id  WHERE `goods_name` LIKE '%%' AND `brand_id` = '1' AND `cat_id` IN ('16','22','23','24','17','18','19','20','1') GROUP BY a.id ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-25T21:02:43+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=2&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1052:Champ: 'cat_id' dans where clause est ambigu
+ [ SQL语句 ] : SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id      
+		        LEFT JOIN p39_category c ON a.cat_id=c.id
+		        LEFT JOIN p39_goods_cat d ON a.id=d.goods_id 
+		        LEFT JOIN p39_category e ON d.cat_id=e.id  WHERE `goods_name` LIKE '%%' AND `brand_id` = '2' AND `cat_id` IN ('16','22','23','24','17','18','19','20','1') GROUP BY id ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-25T21:02:47+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1052:Champ: 'cat_id' dans where clause est ambigu
+ [ SQL语句 ] : SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id      
+		        LEFT JOIN p39_category c ON a.cat_id=c.id
+		        LEFT JOIN p39_goods_cat d ON a.id=d.goods_id 
+		        LEFT JOIN p39_category e ON d.cat_id=e.id  WHERE `goods_name` LIKE '%%' AND `cat_id` IN ('16','22','23','24','17','18','19','20','1') GROUP BY id ORDER BY id desc LIMIT 0,5  
+
+[ 2017-11-25T21:04:46+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=1&gn=&fp=&tp=&fa=&ta=&odby=price_desc
+ERR: 1052:Champ: 'cat_id' dans where clause est ambigu
+ [ SQL语句 ] : SELECT a.*,b.brand_name,c.cat_name,GROUP_CONCAT(e.cat_name SEPARATOR "<br />") ext_cat_name FROM p39_goods a LEFT JOIN p39_brand b ON a.brand_id=b.id      
+		        LEFT JOIN p39_category c ON a.cat_id=c.id
+		        LEFT JOIN p39_goods_cat d ON a.id=d.goods_id 
+		        LEFT JOIN p39_category e ON d.cat_id=e.id  WHERE `goods_name` LIKE '%%' AND `brand_id` = '1' AND `cat_id` IN ('16','22','23','24','17','18','19','20','1') GROUP BY a.id ORDER BY shop_price desc LIMIT 0,5  
+
+[ 2017-11-25T21:05:14+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=1&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=id_desc
+ERR: 1054:Champ 'a.cat_id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.cat_id IN ('16','22','23','24','17','18','19','20','1') LIMIT 1  
+
+[ 2017-11-25T21:05:36+08:00 ] ::1 /www.39.com/index.php/Admin/Goods/lst?cat_id=16&brand_id=&gn=&fp=&tp=&fa=&ta=&odby=price_desc
+ERR: 1054:Champ 'a.cat_id' inconnu dans where clause
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `p39_goods` WHERE `goods_name` LIKE '%%' AND a.cat_id IN ('22','23','24','16') LIMIT 1  
+
